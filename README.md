@@ -7,4 +7,8 @@
 2. Seurat
 3. cellchat
 ## Original function
-- cellPathwayHM:To address the limitations of CellChat, this function displays all signals sent or received by a specific cell population and presents them as a heatmap. 
+- cellPathwayHM:To address the limitations of CellChat, this function displays all signals sent or received by a specific cell population and presents them as a heatmap.
+
+## Reproducibility
+- 1_preprocess.R: Preprocess  Seurat object with Seurat and Harmony
+- 2_cellcomm.R: Infer cell-cell communication with cellchat
